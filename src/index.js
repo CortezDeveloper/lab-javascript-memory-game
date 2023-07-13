@@ -36,7 +36,7 @@ window.addEventListener('load', (event) => {
         <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
       </div>
     `;
-  });
+  })
 
   // Add all the divs to the HTML
   document.querySelector('#memory-board').innerHTML = html;
@@ -48,4 +48,4 @@ window.addEventListener('load', (event) => {
       console.log(`Card clicked: ${card}`);
     });
   });
-});
+})
